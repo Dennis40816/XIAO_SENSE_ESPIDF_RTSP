@@ -1,0 +1,3 @@
+[submodule "third_party/esp-adf"]
+	path = third_party/esp-adf
+	url = https://github.com/espressif/esp-adf.git

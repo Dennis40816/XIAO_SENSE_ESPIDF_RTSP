@@ -1,0 +1,6 @@
+SortIncludes: false
+BasedOnStyle: Google
+IndentWidth: 2
+ColumnLimit: 80
+AlignConsecutiveMacros: true
+BreakBeforeBraces: Allman
