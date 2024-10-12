@@ -1,0 +1,15 @@
+menu "Custom_ESP_ADF_BOARD"
+    depends on AUDIO_BOARD_CUSTOM
+
+choice CUSTOMER_AUDIO_BOARD
+    prompt "My audio board"
+    default XIAO_ESP32_S3_SENSE
+    help
+        Select an audio board to use with the ESP-ADF
+
+config XIAO_ESP32_S3_SENSE
+    bool "XIAO ESP32-S3 Sense"
+
+endchoice
+
+endmenu
